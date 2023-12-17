@@ -1,0 +1,193 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+
+  
+  /* Style the sections */
+
+    header {
+    padding: 6em 0 6em 0;
+    color: whitesmoke;
+    height: 700px;
+    background-attachment: fixed,fixed,fixed;
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+    background-position: top left,center center,center center;
+    background-size: auto,cover,cover;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    line-height: 1.9;
+    font-size: 25px;
+    }
+    
+    #projects {
+    color: whitesmoke;
+    height: 700px;
+    background-attachment: fixed,fixed,fixed;
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+    background-position: top left,center center,center center;
+    background-size: auto,cover,cover;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.9;
+    font-size: 20px;
+    }
+
+    main {
+      height: 1300px;
+      border: 1px solid #000;
+      background-image: url('https://images7.alphacoders.com/133/1337527.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      font-size: 25px;
+      color: white;
+      padding: 100px;
+    }
+    
+    /* Responsive Styles */
+    @media (max-width: 1300px) {
+      main {
+        height: auto;
+        padding: 50px;
+      }
+    }
+
+    .contact-form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 20vh;
+    }
+    
+    .contact-form {
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      max-width: 1000px;
+      width: 100%;
+      border-radius: 8px;
+    }
+
+#contact {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* CSS */
+.button-6 {
+  background-color:transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 25px;
+  font-weight: 450;
+  justify-content: space-between;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.85rem - 1px) calc(5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+.button-7 {
+ background-color: transparent;
+ width: 300px;
+ height: 300px;
+ text-align: center;
+ display: inline-block;
+  margin: 2 350px;
+}
+.container {
+  text-align: center;
+}
+
+
+
+#skills {
+  font-family: 'Roboto', sans-serif;
+}
+  section {
+    padding: 2rem;
+    margin: 2rem 0;
+  }
+  section h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* Style the portfolio items */
+  .portfolio-item {
+    margin-bottom: 2rem;
+  }
+  .portfolio-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Style the individual items */
+  .ghawebdesign {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+  }
+
+
+  .febe {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+  }
+
+  .skills {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+  }
+
+  .avail {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .em {
+    font-weight:300;
+  }
+
