@@ -20,7 +20,7 @@
     overflow: hidden;
     position: relative;
     text-align: center;
-    line-height: 1.9;
+    line-height: 2;
     font-size: 25px;
     }
     
@@ -36,7 +36,8 @@
     text-align: center;
     font-family: 'Roboto', sans-serif;
     line-height: 1.9;
-    font-size: 15px;
+    font-size: 20px;
+    padding: 25px;
     }
 
     main {
@@ -61,8 +62,18 @@
         width: 150px;
         height: 150px;
       }
+
+      #projects {
+        font-size: 14px;
+      }
+      
     }
 
+    @media (max-width:550px) {
+      #projects {
+        font-size: 8px;
+      }
+    }
 
     .contact-form-container {
       display: flex;
@@ -102,7 +113,7 @@
   line-height: 1.25;
   margin: 0 20px;
   min-height: 3rem;
-  padding: calc(.85rem - 1px) calc(3rem - 1px);
+  padding: calc(.85rem - 1px) calc(1.8rem - 1px);
   position: relative;
   text-decoration: none;
   transition: all 250ms;
