@@ -36,18 +36,18 @@
     text-align: center;
     font-family: 'Roboto', sans-serif;
     line-height: 1.9;
-    font-size: 20px;
+    font-size: 15px;
     }
 
     main {
-      height: 1300px;
-      border: 1px solid #000;
-      background-image: url('https://images7.alphacoders.com/133/1337527.png');
-      background-repeat: no-repeat;
-      background-size: cover;
-      font-size: 25px;
-      color: white;
-      padding: 100px;
+    height: 1400px;
+    border: 1px solid #000;
+    background-image: url('https://images7.alphacoders.com/133/1337527.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 25px;
+    color: white;
+    padding: 100px;
     }
     
     /* Responsive Styles */
@@ -55,8 +55,14 @@
       main {
         height: auto;
         padding: 50px;
+        text-align: center;
+      }
+      #icons {
+        width: 150px;
+        height: 150px;
       }
     }
+
 
     .contact-form-container {
       display: flex;
@@ -81,8 +87,8 @@
 /* CSS */
 .button-6 {
   background-color:transparent;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: .25rem;
+  border: 1px solid white;
+  border-radius: .50rem;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
   box-sizing: border-box;
   color: white;
@@ -94,9 +100,9 @@
   font-weight: 450;
   justify-content: space-between;
   line-height: 1.25;
-  margin: 0;
+  margin: 0 20px;
   min-height: 3rem;
-  padding: calc(.85rem - 1px) calc(5rem - 1px);
+  padding: calc(.85rem - 1px) calc(3rem - 1px);
   position: relative;
   text-decoration: none;
   transition: all 250ms;
